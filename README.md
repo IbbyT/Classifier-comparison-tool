@@ -21,3 +21,20 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/classifier-comparison-tool.git
    cd classifier-comparison-tool
+
+## Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+```
+
+## Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+```
+
+## Usage
+- Open the Streamlit app in your browser by following the URL provided in your terminal.
+- Select a dataset and classifier from the sidebar.
+- Configure the classifier parameters using the provided sliders.
+- Click on "Run" to train the model and visualize the results.
+- Review the accuracy, classification report, and PCA visualization on the main page.
