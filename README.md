@@ -38,3 +38,10 @@ To run this project locally, follow these steps:
 - Configure the classifier parameters using the provided sliders.
 - Click on "Run" to train the model and visualize the results.
 - Review the accuracy, classification report, and PCA visualization on the main page.
+
+## Requirements
+- Python 3.x
+- Streamlit
+- Scikit-learn
+- NumPy
+- Matplotlib
